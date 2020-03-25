@@ -2,7 +2,7 @@
 Hemos hecho un circuito en Fritzing con lo que consideramos que puede funcionar la parte fundamental del proyecto.
 
 Consiste en un puente H que controle los 2 motores, conectado a la protoboard, y esta conectada a la fuente externa y a la placa.
-En la placa va a ir a su vez un botón pulsador, y con el algoritmo adecuado la idea es que al presionarlo una vez (como un interruptor)
+En la protoboard va a ir a su vez un botón pulsador, y con el algoritmo adecuado la idea es que al presionarlo una vez (como un interruptor)
 haga funionar los 2 motores, ambos a la misma velocidad y dirección. Y con pulsarlo por 2da vez, se detenga.
 
 Creemos que esto mismo se puede hacer con una "máquina de estados".
