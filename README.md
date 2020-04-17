@@ -2,8 +2,8 @@ Como no teníamos el material ssuficiente para hacer el proyecto de pulsador de 
 # Motor-DC-y-Sensor-Ultrasonido
 Controlar la velocidad del motor DC mediante un sensor de ultrasonido
 # Integrantes del equipo
-Fabiana Ricci , FricciB
-Gema Sánchez, gema-upm
+- Fabiana Ricci , FricciB
+- Gema Sánchez, gema-upm
 # Descripcicón del trabajo
 El objetivo de este trabajo es poder controlar la velocidad de un motor DC mediante un sensor ultrasonido. En otras palabras, si el ultrasonido detecta que algún objeto se acerca a él, el motor reducirá su velocidad hasta pararse en caso de que se acerque mucho.
 # Obejetivos del trabajo
