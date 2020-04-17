@@ -1,0 +1,70 @@
+
+int motorpin_1=8;
+int motorpin_2=7;
+int Speed_regulator=9;
+int Trig=13;
+int Echo=12;
+int Time;
+int Distance;
+
+
+
+ int Brakes (int Distance){   //Función para activar los frenos.
+
+int speed;
+
+  if(Distance<=20){       //A partir de los 20cm se activan los frenos.
+ speed= Distance;
+
+
+ if(Distance<=8) { //A los 8cm se detiene. 
+ speed=0;
+}}
+ 
+  
+   
+ else
+ {speed= 255;
+
+ }
+
+return speed;
+ }
+
+
+
+void setup() { 
+   Serial.begin(9600);
+  pinMode(Trig, OUTPUT);
+  pinMode(Echo, INPUT);
+  pinMode(motorpin_1,OUTPUT);
+  pinMode(motorpin_2,OUTPUT);
+  pinMode(Speed_regulator,OUTPUT);
+  
+ 
+ 
+ 
+}
+
+void loop() {
+
+digitalWrite(Trig, LOW);
+delay(4);
+digitalWrite(Trig,HIGH);
+delayMicroseconds(10);
+digitalWrite(Trig,LOW);
+
+Time= pulseIn(Echo, HIGH);
+Distance= (Time/2)/29.2;
+
+digitalWrite(motorpin_1,HIGH);
+digitalWrite(motorpin_2,LOW);
+analogWrite(Speed_regulator,Brakes(Distance)); //Velocidad como funcion de la distancia.
+
+
+
+Serial.println(Brakes(Distance));
+
+delay(10);
+
+}
