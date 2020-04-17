@@ -1,4 +1,4 @@
-Como no teníamos el material ssuficiente para hacer el proyecto de pulsador de móvil debido a las condiciones actuales, hemos cambiado a otro proyecto:
+Como no teníamos el material suficiente para hacer el proyecto del pulsador de móvil debido a las condiciones actuales, hemos cambiado a otro proyecto:
 # Motor-DC-y-Sensor-Ultrasonido
 Controlar la velocidad del motor DC mediante un sensor de ultrasonido
 # Integrantes del equipo
