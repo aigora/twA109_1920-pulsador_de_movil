@@ -18,4 +18,5 @@ El objetivo de este trabajo es poder controlar la velocidad de un motor DC media
 2. Arduino procesa ese acercamiento
 3. Arduino reduce la velocidad del motor conforme el objeto se acerque al sensor
 4. Ardino para completamente el motor cuando no haya distancia entre el objeto y el sensor
+
 En caso de que el objeto se aleje, el proceswo es el mismo solo que en vez de reducir la velocidad del motor, aumenta.
