@@ -1,5 +1,5 @@
 Como no teníamos el material suficiente para hacer el proyecto del pulsador de móvil debido a las condiciones actuales, hemos cambiado a otro proyecto:
-## Motor-DC-y-Sensor-Ultrasonido
+# Motor-DC-y-Sensor-Ultrasonido
 Controlar la velocidad del motor DC mediante un sensor de ultrasonido
 ### Integrantes del equipo
 - Fabiana Ricci , _FricciB_
@@ -19,4 +19,4 @@ El objetivo de este trabajo es poder controlar la velocidad de un motor DC media
 3. Arduino reduce la velocidad del motor conforme el objeto se acerque al sensor
 4. Ardino para completamente el motor cuando no haya distancia entre el objeto y el sensor
 
-En caso de que el objeto se aleje, el proceswo es el mismo solo que en vez de reducir la velocidad del motor, aumenta.
+En caso de que el objeto se aleje, el proceso es el contrario: el motor aumenta de velocidad.
