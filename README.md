@@ -5,10 +5,11 @@ Controlar la velocidad del motor DC mediante un sensor de ultrasonido
 - Fabiana Ricci , _FricciB_
 - Gema Sánchez, _gema-upm_
 ### Descripcicón del trabajo
-El objetivo de este trabajo es poder controlar la velocidad de un motor DC mediante un sensor ultrasonido. En otras palabras, si el ultrasonido detecta que algún objeto se acerca a él, el motor reducirá su velocidad hasta pararse en caso de que se acerque mucho.
+El objetivo de este trabajo es poder controlar la velocidad de un motor DC mediante un sensor ultrasonido. 
+En otras palabras, si el ultrasonido detecta algún objeto, Arduino reducirá la velocidad del motor, llegando a pararse en caso de acercarse mucho.
 ### Obejetivos del trabajo
 - Encontrar un algoritmo capaz de contorlar la velocidad del motor mediante el sensor de ultrasonido.
-- Programar el sensor de ultrasonido para que empiece a aminorar la velocidad del motor a una determinada distancia
+- Programar el sensor de ultrasonido para que aminore la velocidad del motor a partir de una determinada distancia.
 ### Hardware
 - PC, Arduino UNO, Sonsor de ultrasonidos, Puente H, Motor DC.
 ### Software
