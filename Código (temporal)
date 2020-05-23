@@ -13,11 +13,11 @@ int Distance;
 
 int speed;
 
-  if(Distance<=20){       //A partir de los 20cm se activan los frenos.
+  if(Distance<=300){       //A partir de los 10cm se activan los frenos.
  speed= Distance;
 
 
- if(Distance<=8) { //A los 8cm se detiene. 
+ if(Distance<=150) {      //A los 3cm se detiene. 
  speed=0;
 }}
  
